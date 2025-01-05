@@ -34,12 +34,12 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         For any inquiries, you can reach me directly at{" "}
         <a className="underline" href="mailto:samprogrammer1@gmail.com">
-          samprogrammer1@gmail.com
+          harshwaibhav69@gmail.com
         </a>{" "}
         Alternatively, feel free to fill out the contact form or give me a call at
         {" "}
-        <a className="underline" href="tel:+918502003023">
-          +91 8502003023.
+        <a className="underline" href="tel:+919102441693">
+          +91 9102441693.
         </a>{" "}
       </p>
 

@@ -63,9 +63,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Sameer.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Utthan IT Solution</span> in India. I'm currently working with Laravel, Node.js, React.js, React Native, Flutter.
+        <span className="font-bold">Hello, I'm Harsh Waibhav.</span> I'm a{" "}
+        <span className="font-bold">Jr. Android Developer</span> at{" "}
+        <span className="font-bold">at Trank Tec</span> . I'm currently working with Node.js, React.js, React Native, Dart.
       </motion.h1>
 
       <motion.div
@@ -78,7 +78,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/samprogrammer1"
+          href="https://github.com/Harsh1708V"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -86,7 +86,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/sameer-ali-6b4926212/"
+          href="https://www.linkedin.com/in/harshwaibhav1708"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>

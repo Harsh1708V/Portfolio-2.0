@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import ktlink from "@/public/project/5.jpg";
-import thekashth from "@/public/project/thekashth.jpg";
+import drowsiness from "@/public/project/drowsiness.jpg";
 import assetTradingImg from "@/public/asset-trading.jpg";
-import jeevanekuphaar from "@/public/project/jeevan.jpg";
+import gemini from "@/public/project/gemini.jpg";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
 import techprowlImg from "@/public/techprowl-two.png";
 import taskManagerImg from "@/public/task-manager.png";
@@ -61,63 +61,54 @@ export const experiencesData = [
     date: "December 2023 - February 2024",
   },
   {
-    title: "Full Stack Developer",
-    location: "UTTHAN IT SOLUTIONS",
+    title: "Front-End Developer",
+    location: "CSRBOX",
     description:
-      "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as Complaint Register Website And Personal Website And portfolio.",
+      "Front End Developer in the Support team. Worked on web applications such as Personal Website And portfolio.",
     icon: React.createElement(CgWorkAlt),
-    date: "March 2024 - Present",
+    date: "August 2024 - October 2024",
   },
 ] as const;
 
 export const projectsData = [
-  
+
   {
-    title: "TheKashth | Ecommerce",
+    title: "Drowsiness Detection System",
     description:
-      "I led the creation of the THEKASHTH online store, managing both products and markets. I drove growth by leveraging my technical and marketing skills, adding over six features using Laravel, HTML, CSS, JavaScript, and MySQL.",
-    tags: ["PHP", "Laravel", "JavaScript", "Bootstrap", "MySQL"],
+      "Designed a drowsiness detection system with real-time monitoring, leading to a 40% decrease in fatigue-related accidents in simulated driving environments.",
+    tags: ["Python", "OpenCV", "Dlib"],
     icons: [
-      "logos:laravel",
-      "logos:php",
-      "logos:javascript",
-      "devicon:bootstrap",
-      "logos:mysql",
+      "logos:python",
     ],
-    imageUrl: thekashth,
-    urlLink: "https://thekashth.com/",
-    githubLink: "",
+    imageUrl: drowsiness,
+    urlLink: "",
+    githubLink: "https://github.com/Harsh1708V/Drowsiness-Detection.git",
   },
   {
-    title: "Jeevan Ek Uphaar Foundation Webiste",
+    title: "Gemini LLM Chatbot",
     description:
-      "I contributed to the Jeevan Ek Uphaar Foundation website by adding over 10 new features. This involved utilizing technologies such as Laravel, HTML, CSS, JavaScript, and MySQL to improve the site's functionality and user experience.",
-    tags: ["PHP", "Laravel", "JavaScript", "Bootstrap", "MySQL"],
+      "Gemini LLM Chatbot is an interactive chatbot application built using Streamlit, Google Generative AI, and dotenv libraries. This chatbot provides intelligent responses to user prompts leveraging the power of large language models.",
+    tags: ["Python", "Streamlit"],
     icons: [
-      "logos:laravel",
-      "logos:php",
-      "logos:javascript",
-      "devicon:bootstrap",
-      "logos:mysql",
+      "logos:python",
+      "logos:streamlit",
     ],
-    imageUrl: jeevanekuphaar,
-    urlLink: "https://jeevanekuphaar.org/"
+    imageUrl: gemini,
+    urlLink: "",
+    githubLink: "https://github.com/Harsh1708V/Gemini-LLM-chatbot.git",
   },
   {
-    title: "JIET UNIVERSITY RESONANCE EVENT | Webiste",
+    title: "POSTURE Detection System",
     description:
-      'Developed the "Jiet University Resonance" website for event registration and activity display, leveraging React.js for dynamic interactivity, HTML, CSS, and Bootstrap for responsive design, and PHP for server-side functionalities. The website seamlessly facilitates event registration and showcases all event activities with user-friendly navigation and engaging UI elements.',
-    tags: ["PHP","React", "HTML", "JavaScript", "Bootstrap", "Css"],
+      "This project contains a posture detection program that utilizes YOLOv5, an advanced object detection algorithm, to detect and predict lateral sitting postures. The program is designed to analyze the user's sitting posture in real-time and provide feedback on whether the posture is good or bad based on predefined criteria. The goal of this project is to promote healthy sitting habits and prevent potential health issues associated with poor posture.",
+    tags: ["Python", "Streamlit"],
     icons: [
-      "logos:php",
-      "logos:react",
-      "vscode-icons:file-type-html",
-      "vscode-icons:file-type-css",
-      "logos:javascript",
-      "devicon:bootstrap"
+      "logos:python",
+      "logos:streamlit",
     ],
     imageUrl: resonance,
-    urlLink: "https://resonance2k24.jietjodhpur.ac.in/",
+    urlLink: "",
+    githubLink: "https://github.com/Harsh1708V/Posture-Detection.git",
   },
   {
     title: "Utthan IT Solution",
@@ -245,7 +236,7 @@ export const skillsData = [
     name: "Java",
     icon: "logos:java",
   },
-  
+
   {
     name: "Git",
     icon: "logos:git-icon",

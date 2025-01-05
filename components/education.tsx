@@ -37,10 +37,10 @@ export default function Education() {
 
         <div>
           <p className="text-lg font-medium">
-            Bachelor of Information Technology In AI-ML
+            Bachelor of Technology In AI
           </p>
-          <p>Jodhpur Institute of Engineering and Technology</p>
-          <p className="mt-1">2023 - 2027</p>
+          <p>Krishna Engineering College</p>
+          <p className="mt-1">2021 - 2025</p>
         </div>
       </div>
     </motion.section>
