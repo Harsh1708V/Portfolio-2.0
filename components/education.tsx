@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import qutLogo from "@/public/education/jiet.png";
+import qutLogo from "@/public/education/kec.png";
 import Image from "next/image";
 
 export default function Education() {

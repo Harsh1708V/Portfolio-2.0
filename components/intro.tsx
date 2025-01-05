@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import githubdp from "@/public/sameer_profile.png";
+import githubdp from "@/public/harsh_profile.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -64,8 +64,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Harsh Waibhav.</span> I'm a{" "}
-        <span className="font-bold">Jr. Android Developer</span> at{" "}
-        <span className="font-bold">at Trank Tec</span> . I'm currently working with Node.js, React.js, React Native, Dart.
+        <span className="font-bold">A Full Stack</span> Developer.{" "}
+        <span className="font-bold"></span> I'm currently working with Node.js, React.js, React Native, Dart.
       </motion.h1>
 
       <motion.div
