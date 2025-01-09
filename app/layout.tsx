@@ -27,7 +27,7 @@ export default function RootLayout({
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <meta name="keywords" content="sameer ali, samprogrammer, software developer, web development, mobile applications, Utthan IT Solution" />
+        <meta name="keywords" content="HarshWaibhav, software developer, web development, mobile applications" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://yourportfolio.com" />
 
